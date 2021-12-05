@@ -26,7 +26,6 @@ namespace KombinatorikaLINQ
                                                 if ((brojArray[0] * 10 + brojArray[1]) % 2 == 0)
                                                     break;
                 broj++;
-                Console.WriteLine(broj);
             }
             Console.WriteLine("Rjesenje je :" + broj);
             Console.ReadKey();
